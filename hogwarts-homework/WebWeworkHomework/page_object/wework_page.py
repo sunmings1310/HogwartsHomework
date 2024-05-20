@@ -6,7 +6,7 @@ from page_object.base_page import BasePage
 
 
 class WeworkPage(BasePage):
-    _BASE_URL = "https://work.weixin.qq.com/wework_admin/frame#/index"
+    _BASE_URL = "https://h5.waimai.meituan.com/waimai/mindex/home"
 
     def login(self):
         self.driver.get(self._BASE_URL)

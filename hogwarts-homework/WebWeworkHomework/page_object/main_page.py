@@ -1,10 +1,10 @@
 from page_object.add_member_page import AddMemberPage
 from page_object.contact_page import ContactPage
-from page_object.wework_page import WeworkPage
+from page_object.meituan_page import MeituanPage
 from selenium.webdriver.common.by import By
 
 
-class MainPage(WeworkPage):
+class MainPage(MeituanPage):
     _CONTACT_CLASS = (By.ID, 'menu_contacts')
     _ADD_MEMBER_CLASS = (By.CLASS_NAME, 'index_service_cnt_item_title')
 

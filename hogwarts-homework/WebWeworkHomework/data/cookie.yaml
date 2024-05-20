@@ -1,101 +1,343 @@
-- domain: .work.weixin.qq.com
-  httpOnly: false
-  name: wxpay.vid
-  path: /
-  secure: false
-  value: '1688851062077161'
-- domain: .work.weixin.qq.com
-  httpOnly: false
-  name: wxpay.corpid
-  path: /
-  secure: false
-  value: '1970325066472309'
-- domain: .work.weixin.qq.com
-  httpOnly: false
-  name: wwrtx.vid
-  path: /
-  secure: false
-  value: '1688851062077161'
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.ref
-  path: /
-  secure: false
-  value: direct
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.ltype
-  path: /
-  secure: false
-  value: '1'
-- domain: .work.weixin.qq.com
-  httpOnly: false
-  name: wwrtx.d2st
-  path: /
-  secure: false
-  value: a9143745
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.logined
-  path: /
-  secure: false
-  value: 'true'
-- domain: .qq.com
-  expiry: 1645751848
-  httpOnly: false
-  name: _gid
-  path: /
-  secure: false
-  value: GA1.2.336528668.1645665436
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.refid
-  path: /
-  secure: false
-  value: '4066991834103412'
-- domain: .work.weixin.qq.com
-  httpOnly: false
-  name: wwrtx.cs_ind
-  path: /
-  secure: false
-  value: ''
-- domain: .qq.com
-  expiry: 1645665495
-  httpOnly: false
-  name: _gat
-  path: /
-  secure: false
-  value: '1'
-- domain: .work.weixin.qq.com
-  expiry: 1677201433
-  httpOnly: false
-  name: wwrtx.c_gdpr
-  path: /
-  secure: false
-  value: '0'
-- domain: .qq.com
-  expiry: 1708737448
-  httpOnly: false
-  name: _ga
-  path: /
-  secure: false
-  value: GA1.2.140443359.1645665436
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.sid
-  path: /
-  secure: false
-  value: IdK02wgZQVgQqYS2x28NX3VDaQriaUE3hPjAnMFNurHuGHbzqrjVB3-mirYkjeon
-- domain: .work.weixin.qq.com
-  httpOnly: true
-  name: wwrtx.vst
-  path: /
-  secure: false
-  value: NE1BM6IhJrsxVzDacy1cf01bDujcY9bNB8jT6uXpdDbbj6Fz3oF60xXxtSvRyjZlenFj0XvMx_HnlSBMfdmOIQBBAGIoimcs9J0w33ZyXtGvpGetVkWanFoLWB69SOeJfyAq4pjNxkWRrKBZSzi2Uee4z40esgkfWgRmXxYN2AvSKSK0Nmf0-jLU9jqON9SrnHNt0JbFgLktBw9xO0s2bX4NFFVphDgxyVPMNlAtbcIvmLboN8Y6roD9xshSnXmcW21tYG3JW-DhHhJSwOV7Lg
-- domain: .work.weixin.qq.com
-  expiry: 1648257450
-  httpOnly: false
-  name: wwrtx.i18n_lan
-  path: /
-  secure: false
-  value: zh
+[
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1741599443.928621,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ci",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "55"
+    },
+    {
+        "domain": ".meituan.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "isIframe",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1741599443.928639,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "cityname",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%E5%8D%97%E4%BA%AC"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1712220178,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "wm_order_channel",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "default"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "uuidCanceled",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "0"
+    },
+    {
+        "domain": ".meituan.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "au_trace_key_net",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "default"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1725257561.481216,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "token",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "AgHAH7uYACikY0W96jvDBSxrSMO4NlywV1mW7hg3MFzGhglmqia6ae_QPHewb44MInhCcawcPvUfKAAAAAB1HgAADJy3_-uPCxNlm9AsVFIIzQNRL3Y4O6487-pmwFCYZ-sMjcNh4MGAtRduBZhWyngG"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "showTopHeader",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "show"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1710314342,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_lx_utm",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "utm_source%3Dgoogle%26utm_medium%3Dorganic"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1744188178.650863,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_lxsdk",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "F14A52FEE04B2F09156651A779EAA43CDE22FBB83482FF71907A7523CEF4024F"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1741599431.331153,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_lxsdk_cuid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1742417b8e9c8-0e44d47d19ff95-5a472316-1fa400-1742417b8e9c8"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1709776260,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_lxsdk_s",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "18e167438ec-2c0-87-063%7C%7C115"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "expirationDate": 1740877708,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "igateApp",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "igate"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "isTcMpa",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1744265587.529421,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "iuuid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "F14A52FEE04B2F09156651A779EAA43CDE22FBB83482FF71907A7523CEF4024F"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "logan_session_token",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "xu6gu98n0doswapgbg1c"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1725257561.481313,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "mt_c_token",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "AgHAH7uYACikY0W96jvDBSxrSMO4NlywV1mW7hg3MFzGhglmqia6ae_QPHewb44MInhCcawcPvUfKAAAAAB1HgAADJy3_-uPCxNlm9AsVFIIzQNRL3Y4O6487-pmwFCYZ-sMjcNh4MGAtRduBZhWyngG"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1710232394,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "mtcdn",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "K"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1725257561.481348,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "oops",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "AgHAH7uYACikY0W96jvDBSxrSMO4NlywV1mW7hg3MFzGhglmqia6ae_QPHewb44MInhCcawcPvUfKAAAAAB1HgAADJy3_-uPCxNlm9AsVFIIzQNRL3Y4O6487-pmwFCYZ-sMjcNh4MGAtRduBZhWyngG"
+    },
+    {
+        "domain": ".meituan.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "openh5_uuid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "F14A52FEE04B2F09156651A779EAA43CDE22FBB83482FF71907A7523CEF4024F"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userFace",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "https://img.meituan.net/avatar/31178d7b9069dc6c9e54dd7334a3d09f1717.jpg"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1725257561.481378,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "userId",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "285437242"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userIdCanceled",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "0"
+    },
+    {
+        "domain": "h5.waimai.meituan.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userName",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "%E4%B9%85%E4%BC%B4%E4%B8%80%E4%B8%AAGirl"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1712365708,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "utm_source",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": ""
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1744187594.449977,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "uuid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1f97f665638c4434a295.1709627595.1.0.0"
+    },
+    {
+        "domain": ".meituan.com",
+        "expirationDate": 1744333708.585018,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "WEBDFPID",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "021011x92461506z042yvx13zx9w5w7781w262zw7zz9795886403yw2-2022399444899-1707039444490OSAOWGIfd79fef3d01d5e9aadc18ccd4d0c95078234"
+    }
+]

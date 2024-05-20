@@ -27,3 +27,7 @@ class WeworkApi(BaseApi):
         }
         res = self.send_api(req)
         self.token = res.json()["access_token"]
+
+if __name__ == '__main__':
+    wa = WeworkApi()
+    wa.get_token('a','b')

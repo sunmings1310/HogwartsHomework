@@ -1,4 +1,5 @@
 from api_object.apis.wework_api import WeworkApi
+from api_object.utils.utils import Utils
 
 
 class Department(WeworkApi):
